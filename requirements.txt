@@ -1,0 +1,5 @@
+# The core project needs NO third-party packages (Python 3.10+ standard library only).
+# Everything below is optional.
+
+anthropic>=0.40    # real LLM mode (put ANTHROPIC_API_KEY in .env)
+matplotlib>=3.8    # only for draw_graph.py

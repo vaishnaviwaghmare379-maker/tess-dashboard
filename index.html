@@ -265,7 +265,7 @@ function runAsk() {
 $('#qType').onchange = setupQuery; $('#p1').onchange = $('#p2').onchange = $('#run').onclick = runAsk; $('#sQ').oninput = runAsk;
 
 /* ---- messy text ---- */
-$('#messyNote').textContent = D.mode.startsWith('ONLINE') ? 'Claude converts each message into simple sentences, which are then added to the graph.' : 'Offline mode: a small rule-based stand-in plays the LLM. Set ANTHROPIC_API_KEY to use Claude instead. The graph updates are identical.';
+$('#messyNote').textContent = D.mode.startsWith('ONLINE') ? 'Claude converts each message into simple sentences, which are then added to the graph.' : 'Offline mode: a small rule-based stand-in plays the LLM. Add an LLM API key (see README) to use a real model instead. The graph updates are identical.';
 $('#messyList').innerHTML = D.events.filter(e => e.clean !== null).map(e => {
   const df = diff(isoAdd(e.date, -1), e.date);
   return `<div class="card"><div><b>${e.date}</b><span class="tag messy">raw message</span></div>

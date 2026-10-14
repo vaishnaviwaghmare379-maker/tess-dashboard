@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# generated at runtime
+tess_world.json
+tess_world_big.json
+.vscode/
+.DS_Store

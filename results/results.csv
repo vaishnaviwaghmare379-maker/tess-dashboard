@@ -1,0 +1,11 @@
+#,question,truth,graph,graph_correct,search,search_correct
+1,Who owned API redesign on Sep 10?,['Ben'],['Ben'],True,['Ben'],True
+2,Who owns API redesign on Sep 20?,['Asha'],['Asha'],True,['Asha'],True
+3,Who owns Onboarding flow now?,['Gita'],['Gita'],True,"['Ben', 'Gita']",False
+4,Which tasks are blocked now?,"['API redesign', 'Mobile app', 'Onboarding flow']","['API redesign', 'Mobile app', 'Onboarding flow']",True,"['API redesign', 'Onboarding flow', 'Payment gateway']",False
+5,"If Database migration slips, which tasks are affected?","['Auth service', 'Payment gateway']","['Auth service', 'Payment gateway']",True,[],False
+6,Who attended Retro?,"['Ben', 'Cara', 'Dev', 'Esha', 'Hari']","['Ben', 'Cara', 'Dev', 'Esha', 'Hari']",True,"['Ben', 'Cara', 'Dev', 'Esha', 'Hari']",True
+7,Who attended Kickoff?,"['Asha', 'Ben', 'Cara']","['Asha', 'Ben', 'Cara']",True,"['Asha', 'Ben', 'Cara']",True
+8,Who authored the Security Report?,['Farid'],['Farid'],True,['Farid'],True
+9,What open work does Dev have on Sep 20?,['Payment gateway'],['Payment gateway'],True,['Payment gateway'],True
+10,Who attended a meeting that discussed Atlas Spec?,"['Asha', 'Ben', 'Cara']","['Asha', 'Ben', 'Cara']",True,['Cara'],False
